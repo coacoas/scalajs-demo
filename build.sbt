@@ -10,6 +10,7 @@ libraryDependencies ++=
     "org.scala-js" %%% "scalajs-dom" % "0.8.1",
     "be.doeraene" %%% "scalajs-jquery" % "0.8.1",
     "org.monifu" %%% "monifu" % "1.0-RC3",
+    "com.lihaoyi" %%% "scalatags" % "0.5.2",
     "com.lihaoyi" %%% "upickle" % "0.3.1") ++
     Seq("core", "extra")
       .map("com.github.japgolly.scalajs-react" %%% _ % "0.9.2") ++

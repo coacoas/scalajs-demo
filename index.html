@@ -4,5 +4,14 @@
 </head>
 <body>
     <h2>Scala.js Demo</h2>
+
+    <div id="container"></div>
+
+    <script src="generated/demo-jsdeps.js"></script>
+    <script src="generated/demo-opt.js"></script>
+    <script>
+        var demo = new presentation.Demo();
+        demo.main();
+    </script>
 </body>
 </html>
